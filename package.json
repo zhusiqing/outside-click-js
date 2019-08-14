@@ -1,0 +1,35 @@
+{
+  "name": "outside-click",
+  "version": "0.0.1",
+  "description": "点击指定元素外的触发事件",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "rollup --config build/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhusiqing/outsiderClick.git"
+  },
+  "keywords": [
+    "outside-click-js",
+    "outside-click",
+    "v-outside-click",
+    "outsideClick"
+  ],
+  "author": "zhusiqing",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhusiqing/outsiderClick/issues"
+  },
+  "homepage": "https://github.com/zhusiqing/outsiderClick#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "rollup": "^1.19.4",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-clear": "^2.0.7",
+    "rollup-plugin-uglify": "^6.0.2"
+  }
+}
