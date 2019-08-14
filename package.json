@@ -2,7 +2,9 @@
   "name": "outside-click-js",
   "version": "0.0.1",
   "description": "点击指定元素外的触发事件",
-  "main": "src/index.js",
+  "main": "dist/outside-click-js.min.js",
+  "umd:main": "dist/outside-click-js.min.js",
+  "source": "src/outside-click-js.js",
   "scripts": {
     "build": "rollup --config build/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"

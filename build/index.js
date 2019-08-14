@@ -7,7 +7,7 @@ const babel = require('rollup-plugin-babel')
 const resolve = filePath => path.join(__dirname, '../', filePath)
 
 module.exports = {
-  input: resolve('./src/outside-click-js.js'),
+  input: resolve('src/outside-click-js.js'),
   output: {
     file: resolve('dist/outside-click-js.min.js'),
     format: 'umd',
@@ -19,7 +19,7 @@ module.exports = {
       targets: [resolve('dist')]
     }),
     babel({
-      include: resolve('./src/outside-click-js.js')
+      include: resolve('src/outside-click-js.js')
     })
   ]
 }
