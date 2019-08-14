@@ -1,5 +1,5 @@
 {
-  "name": "outside-click",
+  "name": "outside-click-js",
   "version": "0.0.1",
   "description": "点击指定元素外的触发事件",
   "main": "src/index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zhusiqing/outsiderClick.git"
+    "url": "git+https://github.com/zhusiqing/outside-click-js.git"
   },
   "keywords": [
     "outside-click-js",
@@ -17,12 +17,12 @@
     "v-outside-click",
     "outsideClick"
   ],
-  "author": "zhusiqing",
+  "author": "zsqmengzhihen@163.com",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/zhusiqing/outsiderClick/issues"
+    "url": "https://github.com/zhusiqing/outside-click-js/issues"
   },
-  "homepage": "https://github.com/zhusiqing/outsiderClick#readme",
+  "homepage": "https://github.com/zhusiqing/outside-click-js#readme",
   "dependencies": {},
   "devDependencies": {
     "@babel/core": "^7.5.5",
