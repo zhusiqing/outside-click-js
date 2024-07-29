@@ -3,6 +3,7 @@ const path = require('path')
 const { uglify } = require('rollup-plugin-uglify')
 const clear = require('rollup-plugin-clear')
 const babel = require('rollup-plugin-babel')
+const copy = require('rollup-plugin-copy')
 
 const resolve = filePath => path.join(__dirname, '../', filePath)
 
@@ -20,6 +21,15 @@ module.exports = {
     }),
     babel({
       include: resolve('src/outside-click-js.js')
+    }),
+    copy({
+      targets: [
+        {
+          src: resolve('src/index.d.ts'),
+          dest: resolve('dist')
+        }
+      ],
+      hook: 'buildEnd'
     })
   ]
 }
